@@ -1,9 +1,17 @@
+import { Signed } from 'mina-signer/dist/node/mina-signer/src/TSTypes';
 import { KeyManager } from './KeyManager';
-import { ZKGeoPoint } from 'zklocus/src/api/Models';
+import { ZKGeoPoint, ZKLatitude } from 'zklocus/src/api/Models';
 
 export class SignatureGenerator {
-  static async generate(geoPoint: ZKGeoPoint, keyManager: KeyManager): Promise<string> {
-    const fields = [BigInt(geoPoint.latitude.normalized), BigInt(geoPoint.longitude.normalized)];
-    return keyManager.getClient().signFields(fields, keyManager.getPrivateKey()).signature;
+  static async generate(zkGeoPoint: ZKGeoPoint, keyManager: KeyManager): Promise<Signed<bigint[]>> {
+    const zkLatitude: ZKLatitude = zkGeoPoint.latitude;
+    const scaledLatitude = zkLatitude.toZKValue().toField().toBigInt();
+
+    const ZKLongitude = zkGeoPoint.longitude;
+    const scaledLongitude = ZKLongitude.toZKValue().toField().toBigInt();
+
+    const fields = [BigInt(scaledLatitude), BigInt(scaledLongitude), BigInt(zkGeoPoint.latitude.factor)];
+    console.log(`Signing fields: ${fields}`);
+    return keyManager.getClient().signFields(fields, keyManager.getPrivateKey());
   }
 }
