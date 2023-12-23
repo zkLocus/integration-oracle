@@ -1,7 +1,7 @@
 {
   "name": "zklocus-integration-oracle",
   "version": "0.1.0",
-  "description": "",
+  "description": "A middleware for seamless integration of authenticated private geolocation capabilities using zkLocus, designed for easy, secure, and efficient integration into any system.",
   "main": "build/src/index.js",
   "type": "module",
   "scripts": {
@@ -9,11 +9,29 @@
     "build": "tsc",
     "dev": "nodemon --exec ts-node src/index.ts",
     "lint": "eslint 'src/**/*.{js,ts}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"WARNING: no automated tests setup\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "zkLocus",
+    "geolocation",
+    "authenticated",
+    "oracle",
+    "private",
+    "integration",
+    "blockchain",
+    "zero-knowledge",
+    "security",
+    "privacy",
+    "zkSNARK",
+    "Mina Protocol",
+    "Mina",
+    "O1JS"
+  ],
+  "author": "Illya Gerasymchuk",
+  "license": "MIT",
+  "bin": {
+    "zklocus-oracle": "./bin/zklocus-oracle.sh"
+  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
