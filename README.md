@@ -1,4 +1,6 @@
-# 🌐 zkLocus Integration Oracle 🌟
+# ✨ zkLocus Integration Oracle ✨
+
+![zkLocus Integration Oracle](./assets/zklocus-oracle-cover.WEBP)
 
 ## Introduction 🚀
 #### Brief Overview
@@ -10,10 +12,10 @@ In a world increasingly driven by location-based services and privacy concerns, 
 
 ## Table Of Contents
 
-- [Introduction 🚀](#introduction-)
+- [Introduction 🚀](#introduction-🚀)
   - [Brief Overview](#brief-overview)
   - [Vision Statement](#vision-statement)
-- [Features 🌟](#features-)
+- [Features 🌟](#features-🌟)
 - [Getting Started 🛠️](#getting-started-)
   - [Prerequisites](#prerequisites)
   - [Installation and Running zkLocus Integration Oracle](#installation-and-running-zklocus-integration-oracle)
@@ -21,7 +23,7 @@ In a world increasingly driven by location-based services and privacy concerns, 
     - [Cloning the Repository/Building from Source](#cloning-the-repositorybuilding-from-source)
     - [Verifying Installation](#verifying-installation)
     - [Configuration](#configuration)
-- [Usage 💻](#usage-)
+- [Usage 💻](#usage-💻)
   - [Starting the Server as an Executable](#starting-the-server-as-an-executable)
     - [Direct Executable](#direct-executable)
     - [Npm Command](#npm-command)
@@ -30,16 +32,16 @@ In a world increasingly driven by location-based services and privacy concerns, 
 - [Architecture 🏗️](#architecture-)
   - [Server Overview](#server-overview)
   - [Main Components](#main-components)
-- [zkLocus Deep(ish) Dive 🌐](#zklocus-deepish-dive-)
+- [zkLocus Deep(ish) Dive 🌐](#zklocus-deepish-dive-🌐)
   - [What is zkLocus?](#what-is-zklocus)
   - [Key Features and Innovations](#key-features-and-innovations)
   - [Use Cases](#use-cases)
 - [Development 🛠️](#development-)
   - [Development Setup](#development-setup)
   - [Running Tests](#running-tests)
-- [Contributing 🤝](#contributing-)
+- [Contributing 🤝](#contributing-🤝)
 - [License ⚖️](#license-)
-- [Contact 📩](#contact-)
+- [Contact 📩](#contact-📩)
 
 # Features 🌟
 The zkLocus Integration Oracle is designed with compatibility, ease of use, extensibility and performance in mind. Here are the features that make it stand out:
