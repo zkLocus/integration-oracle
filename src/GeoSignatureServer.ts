@@ -1,9 +1,10 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import { ZKGeoPoint } from 'zklocus/build/src/api/Models'
 import { CommandLineArgs } from './CommandLineArgs';
 import { SignatureGenerator } from './SingatureGenerator';
-import { ZKGeoPoint } from 'zklocus/src/api/Models';
 import { KeyManager } from './KeyManager';
+
 
 export class GeoSignatureServer {
   private app: express.Application;
