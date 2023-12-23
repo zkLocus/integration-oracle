@@ -1,0 +1,93 @@
+# Contributing to zkLocus Integration Oracle 🤝
+
+First off, thank you for considering contributing to zkLocus Integration Oracle! It's people like you that make it such a great tool.
+
+## Code of Conduct
+
+This project and everyone participating in it are governed by the zkLocus Integration Oracle Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to [email].
+
+## How Can I Contribute?
+
+### Reporting Bugs 🐛
+
+This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+
+**Before Submitting A Bug Report:**
+
+- Check the documentation for a list of common questions and problems.
+- Determine which repository the problem should be reported in.
+- Perform a cursory search to see if the issue has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
+
+**How Do I Submit A (Good) Bug Report?**
+
+Bugs are tracked as GitHub issues. Create an issue and provide the following information:
+
+- Use a clear and descriptive title for the issue to identify the problem.
+- Describe the exact steps which reproduce the problem in as much detail as possible.
+- Provide specific examples to demonstrate the steps. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples.
+- Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior.
+- Explain which behavior you expected to see instead and why.
+- Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem.
+
+### Suggesting Enhancements ✨
+
+This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
+
+**Before Submitting An Enhancement Suggestion:**
+
+- Check if you're using the latest version and if you can get the desired behavior by changing the project's configuration.
+- Perform a cursory search to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+
+**How Do I Submit A (Good) Enhancement Suggestion?**
+
+Enhancement suggestions are tracked as GitHub issues:
+
+- Use a clear and descriptive title for the issue to identify the suggestion.
+- Provide a step-by-step description of the suggested enhancement in as many details as possible.
+- Provide specific examples to demonstrate the steps. Include copy/pasteable snippets which you use in those examples, as Markdown code blocks.
+- Describe the current behavior and explain which behavior you expected to see instead and why.
+- Explain why this enhancement would be useful to most zkLocus Integration Oracle users and isn't something that can or should be implemented as a community or third-party project.
+- List some other projects where this enhancement exists.
+
+### Pull Requests 📝
+
+The process described here has several goals:
+
+- Maintain the project's quality
+- Fix problems that are important to users
+- Engage the community in working toward the best possible solution
+- Enable a sustainable system for the project's maintainers to review contributions
+
+Please follow these steps to have your contribution considered by the maintainers:
+
+1. Follow all instructions in the template
+2. Follow the style guides
+3. After you submit your pull request, verify that all status checks are passing
+
+**What if my pull request has a failing status?**
+
+If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then it will not affect the consideration of your pull request.
+
+## Style Guides
+
+### Git Commit Messages
+
+- Use the present tense ("Add feature" not "Added feature")
+- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+- Limit the first line to 72 characters or fewer
+- Reference issues and pull requests liberally after the first line
+
+### TypeScript Style Guide
+
+- Follow the [TypeScript coding guidelines](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+- Any additional styles or exceptions specific to the project
+
+### Documentation Style Guide
+
+- Use Markdown format.
+- If you are creating a new document, place it in the appropriate folder or directory.
+- If you are adding to an existing document, ensure your additions are consistent with the style of the document.
+
+## Starting the Process
+
+Great! So now, you have decided to contribute to zkLocus Integration Oracle. Follow the above guidelines, and your contributions will be well received by the community. Happy coding!
