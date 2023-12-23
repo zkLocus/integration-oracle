@@ -18,9 +18,14 @@ export class GeoSignatureServer {
     this.app.post(this.args.endpointPath, async (req, res) => {
       try {
         const { latitude, longitude } = req.body;
+        console.log(`Received request to sign: ${latitude}, ${longitude}`);
         const geoPoint = new ZKGeoPoint(latitude, longitude);
+        console.log(`Normalized: ${geoPoint.latitude.normalized}, ${geoPoint.longitude.normalized}`);
         const signature = await SignatureGenerator.generate(geoPoint, this.keyManager);
-        res.json({ signature });
+        res.json({ 
+          signature: signature.signature,
+          publicKey: signature.publicKey,
+         });
       } catch (error) {
         if (error instanceof Error) {
             // Now TypeScript knows `error` is an Error object and allows access to `error.message`
@@ -29,6 +34,7 @@ export class GeoSignatureServer {
             // Handle cases where the error might not be an Error object
             res.status(500).json({ error: "An unknown error occurred" });
           }
+        console.log(error);
       }
     });
   }
