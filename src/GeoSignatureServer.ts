@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { ZKGeoPoint } from 'zklocus/build/src/api/Models'
+import { ZKGeoPoint } from 'zklocus/src/api/models/ZKGeoPoint'
 import { CommandLineArgs } from './CommandLineArgs';
 import { SignatureGenerator } from './SingatureGenerator';
 import { KeyManager } from './KeyManager';
