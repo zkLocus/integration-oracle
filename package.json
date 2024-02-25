@@ -1,6 +1,6 @@
 {
   "name": "zklocus-integration-oracle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A middleware for seamless integration of authenticated private geolocation capabilities using zkLocus, designed for easy, secure, and efficient integration into any system.",
   "main": "build/src/index.js",
   "type": "module",
@@ -37,7 +37,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mina-signer": "^2.1.1",
-    "zklocus": "^0.3.0"
+    "zklocus": "^0.5.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
